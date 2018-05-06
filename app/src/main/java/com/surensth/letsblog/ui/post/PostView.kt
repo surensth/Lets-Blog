@@ -2,7 +2,7 @@ package com.surensth.letsblog.ui.post
 
 import android.support.annotation.StringRes
 import com.surensth.letsblog.base.BaseView
-import com.surensth.letsblog.model.Fixtures
+import com.surensth.letsblog.model.FixturesResponse
 
 /**
  * Created by surensth on 5/6/18.
@@ -11,7 +11,7 @@ interface PostView : BaseView {
     /**
      * updates the fixtures to the view
      */
-    fun updateFixtures(posts: List<Fixtures>)
+    fun updateFixtures(fixtureList: FixturesResponse)
 
     /**
      * shows error string
