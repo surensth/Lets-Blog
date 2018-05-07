@@ -5,6 +5,8 @@ buildscript {
     ext.supportlib_version = '27.1.1'
     ext.android_plugin_version = '3.1.0'
     ext.anko_version = '0.10.5'
+    ext.kotPrefVersion = '2.2.0'
+
     repositories {
         google()
         jcenter()

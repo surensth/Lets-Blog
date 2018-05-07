@@ -44,6 +44,8 @@ dependencies {
     implementation "com.squareup.retrofit2:retrofit:2.3.0"
     implementation "com.squareup.retrofit2:adapter-rxjava2:2.3.0"
     implementation "com.squareup.retrofit2:converter-moshi:2.3.0"
+    implementation "com.squareup.retrofit2:converter-gson:2.3.0"
+
     implementation 'com.squareup.okhttp3:logging-interceptor:3.7.0'
 
     // Dagger 2
@@ -60,6 +62,11 @@ dependencies {
     implementation "org.jetbrains.anko:anko:$anko_version"
     implementation "org.jetbrains.anko:anko-commons:$anko_version"
 
+    //kotpref
+    implementation "com.chibatching.kotpref:kotpref:$kotPrefVersion"
+    implementation "com.chibatching.kotpref:initializer:$kotPrefVersion" // optional
+    implementation "com.chibatching.kotpref:enum-support:$kotPrefVersion" // optional
+    implementation "com.chibatching.kotpref:gson-support:$kotPrefVersion" // optional
 
 
 

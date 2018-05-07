@@ -1,5 +1,6 @@
 package com.surensth.letsblog.model
 
+import com.chibatching.kotpref.KotprefModel
 import java.util.*
 
 /**
@@ -33,3 +34,19 @@ data class Result(
         val remarks: String,
         val data: String
 )
+
+
+data class SignInSuccessData(
+        var token: String? = null
+
+)
+
+data class SignInData(
+        var username: String? = null,
+        var password: String? = null
+)
+
+
+object UserInfo : KotprefModel() {
+    var token by stringPref("")
+}
